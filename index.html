@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO APP</title>
+</head>
+
+<body>
+    <h1 class="heading">TO<span>DO</span> APP</h1>
+    <div class="text-input">
+        <input type="text" id="todo-item" placeholder="Enter what to do...">
+    </div>
+    <div class="buttons">
+        <button onclick="addTodo()">Add Item<span><img src="plus.png" alt=""></span></button>
+        <button onclick="deleteAll()">Delete All<span><img src="criss-cross.png" alt="" ></span></button>
+    </div>
+    <div class="todo">
+        <h2>Things you have <span>TODO...</span></h2>
+        <ol id="list"></ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
